@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Users, Award, Building2, ArrowRight, Star, Calendar, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import brochure from "@/assets/brochures/brochure.pdf";
+// import brochure from "@/assets/brochures/brochure.pdf";
 
 const Home = () => {
   const courses = [
@@ -217,7 +217,7 @@ const Home = () => {
             <Button variant="hero" size="lg" className="bg-white text-primary hover:bg-white/90">
               Apply Now
             </Button>
-            <a href={brochure} download target="_blank" rel="noopener noreferrer">
+            <a href="#" download target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg" className="border-white text-primary">
                 Download Brochure
               </Button>
