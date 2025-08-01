@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Users, Award, Building2, ArrowRight, Star, Calendar, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-// import brochure from "@/assets/brochures/brochure.pdf fdfjfhjsdfhkjsd";
+// import brochure from "@/assets/brochures/brochure.pdf fdfjfhjsdfhkjsd ff";
 
 const Home = () => {
   const courses = [
